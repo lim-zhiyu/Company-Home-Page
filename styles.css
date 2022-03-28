@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0
+}
+
+body {
+    background-color: #FFA86B;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.title {
+    background-color: #FFE69E;
+    padding: 50px 0;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #FFD991;
+    padding: 20px 0;
+}
+
+.description {
+    background-color: #FFCC84;
+    padding: 40px 0;
+}
+
+.products {
+    background-color: #FFBA78;
+    padding: 20px 0;
+}
+
+.employees {
+    background-color: #FFA86B;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.product-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-card, .employee-card {
+    margin: 20px;
+    padding: 15px;
+}
+
+.product-name, .employee-name {
+    font-size: 20px;
+}
+
+.product-name, .employee-name, .employee-description {
+    text-align: center;
+}
+
+.product-image img {
+    width: 400px;
+    height: 300px;
+}
+
+.employee-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.employee-photo img {
+    width: 200px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: #FFBA78;
+}
+
+.email, .phone {
+    margin: 10px;
+}
